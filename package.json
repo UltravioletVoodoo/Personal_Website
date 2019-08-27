@@ -1,0 +1,27 @@
+{
+  "name": "Personal_Website",
+  "version": "1.0.0",
+  "description": "A portfolio website for linking to my resume and favorite web projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltravioletVoodoo/Personal_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UltravioletVoodoo/Personal_Website/issues"
+  },
+  "homepage": "https://github.com/UltravioletVoodoo/Personal_Website#readme",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
