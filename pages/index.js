@@ -8,10 +8,9 @@ const Index = () => (
     <div>
         <Base></Base>
         <div className="col-10 col-mx-auto">
-            <Navbar></Navbar>
             <div className="columns">
                 <div className="col-12">
-
+                    <Navbar></Navbar>
                 </div>
                 <div className="col-6">
                     <MainLogo></MainLogo>
