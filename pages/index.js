@@ -1,7 +1,29 @@
+import MainLogo from "../components/mainLogo";
+import Base from "../components/base";
+import MiniAbout from "../components/miniAbout";
+import Projects from "../components/projects";
+import Navbar from "../components/navbar";
+
 const Index = () => (
     <div>
-        <h1>Portfolio Website</h1>
-        <a href="https://ultravioletvoodoo.github.io/Character_Generator/" target="_blank">Character Generator</a>
+        <Base></Base>
+        <div className="col-10 col-mx-auto">
+            <Navbar></Navbar>
+            <div className="columns">
+                <div className="col-12">
+
+                </div>
+                <div className="col-6">
+                    <MainLogo></MainLogo>
+                </div>
+                <div className="col-6">
+                    <MiniAbout></MiniAbout>
+                </div>
+                <div>
+                    <Projects></Projects>
+                </div>
+            </div>
+        </div>
     </div>
 );
 
