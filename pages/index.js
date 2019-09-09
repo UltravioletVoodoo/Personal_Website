@@ -12,10 +12,10 @@ const Index = () => (
                 <div className="col-12">
                     <Navbar></Navbar>
                 </div>
-                <div className="col-6">
+                <div className="col-6 col-sm-12">
                     <MainLogo></MainLogo>
                 </div>
-                <div className="col-6">
+                <div className="col-6 col-sm-12">
                     <MiniAbout></MiniAbout>
                 </div>
                 <div>
