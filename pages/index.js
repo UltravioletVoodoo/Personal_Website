@@ -1,6 +1,5 @@
 import MainLogo from "../components/mainLogo";
 import Base from "../components/base";
-import MiniAbout from "../components/miniAbout";
 import Projects from "../components/projects";
 import Navbar from "../components/navbar";
 
@@ -12,11 +11,8 @@ const Index = () => (
                 <div className="col-12">
                     <Navbar></Navbar>
                 </div>
-                <div className="col-6 col-sm-12">
+                <div className="col-md-12 col-lg-10 col-8 col-mx-auto">
                     <MainLogo></MainLogo>
-                </div>
-                <div className="col-6 col-sm-12">
-                    <MiniAbout></MiniAbout>
                 </div>
                 <div>
                     <Projects></Projects>
