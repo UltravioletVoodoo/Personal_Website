@@ -1,9 +1,11 @@
 import "./mainLogo.css";
+import MiniAbout from "../components/miniAbout";
 
 export default function MainLogo() {
     return (
-        <div>
-            <img src="/static/img/logo.svg" className="mainLogo"></img>
+        <div className="logoAboutContainer">
+            <img src="/static/img/treasure.svg" className="mainLogo"></img>
+            <MiniAbout></MiniAbout>
         </div>
     );
 }
