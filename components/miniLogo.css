@@ -1,4 +1,28 @@
 .miniLogo {
-    width: 5vw;
-    height: 5vw;
+    width: 10vw;
+    height: 10vw;
+}
+@media only screen and (min-width: 700px) {
+    .miniLogo {
+        width: 7vw;
+        height: 7vw;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .miniLogo {
+        width: 5vw;
+        height: 5vw;
+    }
+}
+.miniLogo:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+}
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
 }
