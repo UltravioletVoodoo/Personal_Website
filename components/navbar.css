@@ -3,6 +3,12 @@
     margin-bottom: 50px;
     padding: 1vh;
 }
-a {
-    color: black !important;
+.myNavbar .btn.btn-link {
+    color: black;
+}
+.myNavbar .about {
+    padding-left: 5vw;
+}
+.myNavbar .resume {
+    padding-right: 5vw;
 }

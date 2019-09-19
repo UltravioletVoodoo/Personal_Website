@@ -5,15 +5,19 @@ export default function MiniLogo() {
     // State for whether the animation class is active or not
     const [clicked, setClicked] = React.useState(false);
 
+    function resetAnimation() {
+        setClicked(false);
+        setTimeout(() => setClicked(true));
+    }
 
     return (
         <div>
             <img
                 src="/static/img/logo.svg"
-                className={clicked ? "miniLogo spinAnimation" : "miniLogo"} 
-                onClick={() => setClicked(!clicked)}
+                className={"miniLogo " + (clicked ? "spinAnimation" : "")} 
+                onClick={resetAnimation}
                 id="miniLogo">
             </img>
         </div>
     );
-}   
+}
