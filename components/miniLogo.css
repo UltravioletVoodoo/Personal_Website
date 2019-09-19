@@ -14,7 +14,7 @@
         height: 5vw;
     }
 }
-.miniLogo:hover {
+.spinAnimation {
     animation-name: spin;
     animation-duration: 1s;
 }

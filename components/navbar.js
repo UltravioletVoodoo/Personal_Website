@@ -11,7 +11,7 @@ export default function Navbar() {
                 <MiniLogo></MiniLogo>
             </section>
             <section className="navbar-section">
-                <a className="btn btn-link">Resume</a>
+                <a className="btn btn-link">Résume</a>
             </section>
         </header>
     );
