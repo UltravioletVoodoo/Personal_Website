@@ -1,8 +1,12 @@
 .myNavbar {
     box-shadow: 5px 10px 18px #CCCCCC;
-    margin-bottom: 50px;
     padding: 1vh;
     transition: 0.2s;
+    margin-bottom: 5vh;
+    height: 10vh;
+}
+.myNavbar .navbar-center {
+    height: 100%;
 }
 .myNavbar .btn.btn-link {
     color: black;

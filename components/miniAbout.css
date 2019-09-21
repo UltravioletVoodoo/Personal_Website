@@ -1,11 +1,19 @@
 .miniAbout {
     position: static;
 }
-
+.bodyContent {
+    display: block;
+}
+.footerContent {
+    text-align: center;
+}
 @media only screen and (min-width: 700px) {
     .miniAbout {
         position: absolute;
         left: 50%;
         top: 0%;
+    }
+    .footerContent {
+        text-align: left;
     }
 }

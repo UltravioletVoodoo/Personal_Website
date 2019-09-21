@@ -1,7 +1,7 @@
 .scrollDown {
     text-align: center;
+    height: 10vh;
 }
 .scrollArrow {
-    width: 10vw;
-    height: 10vw;
+    height: 100%;
 }

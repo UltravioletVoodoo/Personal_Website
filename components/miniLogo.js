@@ -11,13 +11,11 @@ export default function MiniLogo() {
     }
 
     return (
-        <div>
-            <img
-                src="/static/img/logo.svg"
-                className={"miniLogo " + (clicked ? "spinAnimation" : "")} 
-                onClick={resetAnimation}
-                id="miniLogo">
-            </img>
-        </div>
+        <img
+            src="/static/img/logo.svg"
+            className={"miniLogo " + (clicked ? "spinAnimation" : "")} 
+            onClick={resetAnimation}
+            id="miniLogo">
+        </img>
     );
 }

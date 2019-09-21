@@ -4,7 +4,7 @@ import MiniAbout from "../components/miniAbout";
 export default function MainLogo() {
     return (
         <div className="columns">
-            <div className="col-md-12 col-lg-10 col-8 col-mx-auto">
+            <div className="col-12">
                 <div className="logoAboutContainer">
                     <img src="/static/img/treasure.svg" className="mainLogo"></img>
                     <MiniAbout></MiniAbout>
