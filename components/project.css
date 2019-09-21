@@ -1,0 +1,13 @@
+.myCard {
+    margin: 5px;
+    transition: 0.2s;
+}
+.myCard:hover {
+    transform: scale(1.05);
+}
+.myCard .card-button{
+    text-align: center;
+}
+.myCard .card-image {
+    width: 100%;
+}
