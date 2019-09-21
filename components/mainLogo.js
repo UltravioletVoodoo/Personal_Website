@@ -3,9 +3,13 @@ import MiniAbout from "../components/miniAbout";
 
 export default function MainLogo() {
     return (
-        <div className="logoAboutContainer">
-            <img src="/static/img/treasure.svg" className="mainLogo"></img>
-            <MiniAbout></MiniAbout>
+        <div className="columns">
+            <div className="col-12">
+                <div className="logoAboutContainer">
+                    <img src="/static/img/treasure.svg" className="mainLogo"></img>
+                    <MiniAbout></MiniAbout>
+                </div>
+            </div>
         </div>
     );
 }
