@@ -2,6 +2,7 @@ import MainLogo from "../components/mainLogo";
 import Base from "../components/base";
 import Projects from "../components/projects";
 import Navbar from "../components/navbar";
+import ScrollDown from "../components/scrollDown";
 
 const Index = () => (
     <div>
@@ -10,14 +11,9 @@ const Index = () => (
             <Navbar></Navbar>
         </div>
         <div className="col-10 col-mx-auto">
-            <div className="columns">
-                <div className="col-md-12 col-lg-10 col-8 col-mx-auto">
-                    <MainLogo></MainLogo>
-                </div>
-                <div>
-                    <Projects></Projects>
-                </div>
-            </div>
+            <MainLogo></MainLogo>
+            <ScrollDown></ScrollDown>
+            <Projects></Projects>
         </div>
     </div>
 );

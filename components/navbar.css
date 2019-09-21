@@ -2,13 +2,20 @@
     box-shadow: 5px 10px 18px #CCCCCC;
     margin-bottom: 50px;
     padding: 1vh;
+    transition: 0.2s;
 }
 .myNavbar .btn.btn-link {
     color: black;
 }
-.myNavbar .about {
+.about, .resume, .miniLogo {
+    transition: 0.2s;
+}
+.about {
     padding-left: 5vw;
 }
-.myNavbar .resume {
+.resume {
     padding-right: 5vw;
+}
+.about:hover, .resume:hover, .miniLogo:hover {
+    transform: scale(1.1);
 }

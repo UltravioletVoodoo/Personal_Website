@@ -8,7 +8,7 @@ export default function Navbar() {
                 <a className="btn btn-link about">About</a>
             </section>
             <section className="navbar-center">
-                <MiniLogo></MiniLogo>
+                <MiniLogo className="miniLogo"></MiniLogo>
             </section>
             <section className="navbar-section">
                 <a className="btn btn-link resume">Résume</a>
