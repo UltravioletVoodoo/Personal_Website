@@ -4,7 +4,6 @@ export default function MiniAbout() {
     return (
         <div className="miniAbout">
             <div className="headerContent">
-                <h5>Jonathan Bezeau</h5>
                 <h6>
                     Software Engineer
                 </h6>

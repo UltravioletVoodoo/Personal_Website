@@ -10,8 +10,9 @@
 @media only screen and (min-width: 700px) {
     .miniAbout {
         position: absolute;
-        left: 50%;
-        top: 0%;
+        top: 15%;
+        left: 15%;
+        width: 35vw;
     }
     .footerContent {
         text-align: left;
