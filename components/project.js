@@ -3,7 +3,7 @@ import "./project.css";
 export default function Project(props) {
     
     function checkImg() {
-        if (props.imgSrc == null) return "/static/img/placeHolder.png";
+        if (props.imgSrc == null) return "static/img/placeHolder.png";
         return props.imgSrc;
     }
 
