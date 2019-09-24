@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <header className="navbar myNavbar">
             <section className="navbar-section">
-                <a className="btn btn-link about">About</a>
+                <a className="btn btn-link about" href="/about">About</a>
             </section>
             <section className="navbar-center">
                 <MiniLogo className="miniLogo"></MiniLogo>
