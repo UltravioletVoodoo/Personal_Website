@@ -15,7 +15,7 @@ export default function MiniAbout() {
                 </p>
             </div>
             <div className="footerContent">
-                <button className="btn">About me</button>
+                <a className="btn" href="/about">About me</a>
             </div>
         </div>
     );

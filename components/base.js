@@ -5,7 +5,7 @@ export default function Base() {
     return (
         <div>
             <Head>
-                <title>My page title</title>
+                <title>Jonathan Bezeau</title>
                 <meta name="viewport" content="initial-scale=1.0 width=device-width" />
                 <link rel="shortcut icon" href="/static/favicon.ico"/>
             </Head>
