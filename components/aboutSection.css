@@ -1,0 +1,17 @@
+.aboutSection img {
+    width: 100%;
+}
+.desktopDesign {
+    display: none;
+}
+.mobileDesign {
+    display: inline-block;
+}
+@media only screen and (min-width: 700px) {
+    .desktopDesign {
+        display: block;
+    }
+    .mobileDesign {
+        display: none;
+    }
+}
