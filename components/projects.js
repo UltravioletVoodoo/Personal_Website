@@ -8,7 +8,7 @@ export default function Projects() {
                 name="Character Generator"
                 desc="A character generator for 5th edition dungeons and dragons."
                 btnLink="https://ultravioletvoodoo.github.io/Character_Generator"
-                imgSrc="/static/img/character_generator.png"
+                imgSrc="/static/img/character_generator.PNG"
                 >
             </Project>
 
