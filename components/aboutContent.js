@@ -17,7 +17,7 @@ export default function AboutContent() {
     I have always been fascinated by fantasy worlds. As a child, I read books about 
     warriors, dragons, wizards, and goblins. This fascination developed into two core hobbies 
     in my adult life. Dungeons and Dragons, and Cosplay. In my off time, I can be found 
-    writing my latest Dungeons and Dragons campaing, or hard at work at my workbench glueing 
+    writing my latest Dungeons and Dragons campaign, or hard at work at my workbench glueing 
     and sewing the newest addition to my rapidly growing cosplay collection.
     `;
     
