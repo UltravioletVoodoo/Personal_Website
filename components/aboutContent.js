@@ -1,5 +1,4 @@
 import "./aboutContent.css";
-import WorkShowCase from "./workShowCase";
 import AboutSection from "./aboutSection";
 
 export default function AboutContent() {
@@ -47,22 +46,18 @@ export default function AboutContent() {
             <div className="aboutBody">
 
                 <AboutSection
+                    title="About Me"
                     text={aboutIntro}
                     photos={mePhotos}
                     >
                 </AboutSection>
 
                 <AboutSection
-                    title="Hobbies"
+                    title="My Hobbies"
                     text={aboutHobbies}
                     photos={hobbyPhotos}
                     >
-                </AboutSection>
-
-                <div className="workExperienceShowCase">
-                    <h2>Work Experience</h2>
-                    <WorkShowCase></WorkShowCase>
-                </div> 
+                </AboutSection> 
 
             </div>
         </div>

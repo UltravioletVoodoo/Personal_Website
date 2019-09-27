@@ -7,16 +7,16 @@ export default function AboutSection(props) {
             <div className="desktopDesign">
                 <div className="columns">
                     <div className="col-3">
-                        <img src={props.photos[0]}></img>
-                        <img src={props.photos[1]}></img>
+                        <img className="aboutImage" src={props.photos[0]}></img>
+                        <img className="aboutImage" src={props.photos[1]}></img>
                     </div>
                     <div className="col-6">
-                        <h2>{props.title}</h2>
+                        <h5>{props.title}</h5>
                         <p>{props.text}</p>
                     </div>
                     <div className="col-3">
-                        <img src={props.photos[2]}></img>
-                        <img src={props.photos[3]}></img>
+                        <img className="aboutImage" src={props.photos[2]}></img>
+                        <img className="aboutImage" src={props.photos[3]}></img>
                     </div>
                 </div>
             </div>
@@ -28,16 +28,16 @@ export default function AboutSection(props) {
                 </div>
                 <div className="columns">
                     <div className="col-3">
-                        <img src={props.photos[0]}></img>
+                        <img className="aboutImage" src={props.photos[0]}></img>
                     </div>
                     <div className="col-3">
-                        <img src={props.photos[1]}></img>
+                        <img className="aboutImage" src={props.photos[1]}></img>
                     </div>
                     <div className="col-3">
-                        <img src={props.photos[2]}></img>
+                        <img className="aboutImage" src={props.photos[2]}></img>
                     </div>
                     <div className="col-3">
-                        <img src={props.photos[3]}></img>
+                        <img className="aboutImage" src={props.photos[3]}></img>
                     </div>
                 </div>
             </div>
