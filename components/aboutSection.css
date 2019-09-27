@@ -2,6 +2,10 @@
     width: 100%;
     height: 100px;
     object-fit: contain;
+    transition: 0.2s;
+}
+.aboutImage:hover {
+    transform: scale(1.5);
 }
 .desktopDesign {
     display: none;

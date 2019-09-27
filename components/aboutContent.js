@@ -22,17 +22,17 @@ export default function AboutContent() {
     `;
     
     let mePhotos = [
-        "/static/img/placeholder.png",
-        "/static/img/placeholder.png",
-        "/static/img/placeholder.png",
-        "/static/img/placeholder.png"
+        "/static/img/me1.jpg",
+        "/static/img/me2.jpg",
+        "/static/img/me3.jpg",
+        "/static/img/me4.jpg"
     ];
 
     let hobbyPhotos = [
-        "/static/img/placeholder.png",
-        "/static/img/placeholder.png",
-        "/static/img/placeholder.png",
-        "/static/img/placeholder.png"
+        "/static/img/cosplay1.jpg",
+        "/static/img/cosplay2.jpg",
+        "/static/img/cosplay3.jpg",
+        "/static/img/cosplay4.jpg"
     ];
 
     return (
@@ -51,6 +51,8 @@ export default function AboutContent() {
                     photos={mePhotos}
                     >
                 </AboutSection>
+
+                <hr className="divider"></hr>
 
                 <AboutSection
                     title="My Hobbies"
