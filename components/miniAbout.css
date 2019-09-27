@@ -5,7 +5,7 @@
     display: block;
 }
 .footerContent {
-    text-align: center;
+    display: none;
 }
 @media only screen and (min-width: 700px) {
     .miniAbout {
@@ -15,6 +15,6 @@
         width: 35vw;
     }
     .footerContent {
-        text-align: left;
+        display: block;
     }
 }

@@ -15,9 +15,9 @@ export default function Project(props) {
     return (
         <div className="col-3 col-lg-4 col-md-6 col-sm-12 col-mx-auto">
             <div className="card myCard">
-                <div className="card-image">
-                    <img src={checkImg()} className="img-responsive"></img>
-                </div>
+                <a href={props.btnLink} target="_blank">
+                    <img src={checkImg()} className="img-responsive cardImage"></img>
+                </a>
                 <div className="card-header">
                     <div className="card-title h5">{props.name}</div>
                 </div>
