@@ -14,7 +14,7 @@
 .about, .home, .resume, .miniLogo {
     transition: 0.2s;
 }
-.about {
+.home {
     padding-left: 5vw;
 }
 .resume {

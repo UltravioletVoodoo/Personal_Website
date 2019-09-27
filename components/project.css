@@ -8,6 +8,8 @@
 .myCard .card-button{
     text-align: center;
 }
-.myCard .card-image {
+.cardImage {
+    height: 150px;
     width: 100%;
+    object-fit: none;
 }
