@@ -13,7 +13,7 @@ export default function Navbar() {
                     <MiniLogo className="miniLogo"></MiniLogo>
                 </section>
                 <section className="navbar-section">
-                    <a className="btn btn-link resume">Résumé</a>
+                    <a className="btn btn-link resume" href="/static/publicFiles/resume.pdf" target="_blank">Résumé</a>
                 </section>
             </header>
         </div>
