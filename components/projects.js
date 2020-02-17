@@ -15,6 +15,8 @@ export default function Projects() {
             <Project
                 name="Pixel Art Maker"
                 desc="A pixel art maker that can be used entirely within the browser."
+                btnLink="https://pixelart.jonbezeau.dev/"
+                imgSrc="/static/img/Pixel_Art_Maker.PNG"
                 >
             </Project>
 
