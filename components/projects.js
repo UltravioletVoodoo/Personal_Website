@@ -6,7 +6,7 @@ export default function Projects() {
             
             <Project
                 name="Character Generator"
-                desc="A character generator for 5th edition dungeons and dragons."
+                desc="A character generator for 5th edition Dungeons and Dragons."
                 btnLink="https://ultravioletvoodoo.github.io/Character_Generator"
                 imgSrc="/static/img/character_generator.PNG"
                 >
@@ -21,20 +21,13 @@ export default function Projects() {
             </Project>
 
             <Project
-                name="Chiptune Music Maker"
-                desc="A chiptune (8-bit) music maker that can be used entirely within the browser."
+                name='Immersion Booster'
+                desc='A tool for creating and managing Dungeons and Dragons sessions.'
+                btnLink='https://immersion.jonbezeau.dev/'
+                imgSrc='/static/img/Immersion_Booster.PNG'
                 >
             </Project>
 
         </div>
     );
 }
-
-// Example Project
-{/* <Project 
-    name="testName"
-    desc="test description. Lalala alala alala alalala"
-    btnLink="https://www.google.ca"
-    imgSrc="static/img/placeholder.png"
-    >
-</Project> */}
