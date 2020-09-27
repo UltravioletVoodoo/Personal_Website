@@ -28,6 +28,14 @@ export default function Projects() {
                 >
             </Project>
 
+            <Project
+                name='Sparks Crosses the Road'
+                desc='A Flappy Bird clone about a courageous caterpillar named Sparks'
+                btnLink='https://sparks.jonbezeau.dev/'
+                imgSrc='/static/img/sparksCrossesTheRoad.PNG'
+                >
+            </Project>
+
         </div>
     );
 }
