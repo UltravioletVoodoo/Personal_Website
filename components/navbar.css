@@ -5,13 +5,16 @@
     margin-bottom: 5vh;
     height: 10vh;
 }
+.miniLogo {
+    display: none;
+}
 .myNavbar .navbar-center {
     height: 100%;
 }
 .myNavbar .btn.btn-link {
     color: black;
 }
-.about, .home, .resume, .miniLogo {
+.about, .home, .jams, .resume, .miniLogo {
     transition: 0.2s;
 }
 .home {
@@ -19,7 +22,14 @@
 }
 .resume {
     padding-right: 5vw;
+    padding-left: 0;
 }
-.about:hover, .home:hover, .resume:hover, .miniLogo:hover {
+.about:hover, .home:hover, .jams:hover, .resume:hover, .miniLogo:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (min-width: 700px) {
+    .miniLogo {
+        display: unset;
+    }
 }

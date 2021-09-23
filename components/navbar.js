@@ -8,6 +8,7 @@ export default function Navbar() {
                 <section className="navbar-section">
                     <a className="btn btn-link home" href="/">Home</a>
                     <a className="btn btn-link about" href="/about">About</a>
+                    <a className="btn btn-link jams" href="/jams">Game Jams</a>
                 </section>
                 <section className="navbar-center">
                     <MiniLogo className="miniLogo"></MiniLogo>
