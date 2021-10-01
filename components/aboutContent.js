@@ -4,8 +4,7 @@ import AboutSection from "./aboutSection";
 export default function AboutContent() {
     let aboutIntro = 
     `
-    My name is Jonathan Bezeau. I am a software engineering student in my final 
-    year of study at the University of Victoria. I have a passion for web development. 
+    My name is Jonathan Bezeau. I am a software engineer with a passion for web development. 
     Its ability to create tools and entertainment that are easily accessible for 
     anyone on any device anywhere in the world intrigues me. This website was designed 
     to be a portfolio, to show off my passion for coding, displaying to the world 
