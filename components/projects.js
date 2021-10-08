@@ -36,6 +36,14 @@ export default function Projects() {
                 >
             </Project>
 
+            <Project
+                name='Super Search'
+                desc='A word searching app for poets, songwriters, and those with a word on the tip of their tongue'
+                // btnLink='https://super-search.jonbezeau.dev/'
+                imgSrc='/static/img/comingsoon.jpg'
+                >
+            </Project>
+
         </div>
     );
 }
