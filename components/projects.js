@@ -39,8 +39,16 @@ export default function Projects() {
             <Project
                 name='Super Search'
                 desc='A word searching app for poets, songwriters, and those with a word on the tip of their tongue'
-                // btnLink='https://super-search.jonbezeau.dev/'
-                imgSrc='/static/img/comingsoon.jpg'
+                btnLink='https://super-search.jonbezeau.dev/'
+                imgSrc='/static/img/superSearch.PNG'
+                >
+            </Project>
+
+            <Project
+                name='I.D.K'
+                desc='An I.D.K triplicate generator used to generate acronyms in the IDK format'
+                btnLink='https://idk.jonbezeau.dev/'
+                imgSrc='/static/img/iDontKnow.PNG'
                 >
             </Project>
 
