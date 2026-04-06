@@ -6,16 +6,16 @@ import ScrollDown from "../components/scrollDown";
 import Footer from "../components/footer";
 
 const Index = () => (
-    <div>
-        <Base></Base>
-        <Navbar></Navbar>
-        <div className="col-10 col-mx-auto">
-            <MainLogo></MainLogo>
-            <ScrollDown></ScrollDown>
-            <Projects></Projects>
-        </div>
-        <Footer></Footer>
+  <div>
+    <Base></Base>
+    <Navbar></Navbar>
+    <div className="col-10 col-mx-auto">
+      <MainLogo></MainLogo>
+      <ScrollDown></ScrollDown>
+      <Projects></Projects>
     </div>
+    <Footer></Footer>
+  </div>
 );
 
 export default Index;

@@ -1,39 +1,36 @@
-import "./project.css";
-
 export default function Project(props) {
-    
-    function checkImg() {
-        if (props.imgSrc == null) return "/static/img/placeholder.png";
-        return props.imgSrc;
-    }
+  function checkImg() {
+    if (props.imgSrc == null) return "/static/img/placeholder.png";
+    return props.imgSrc;
+  }
 
-    function checkBtnClasses() {
-        if(props.btnLink == null) return "btn disabled";
-        return "btn";
-    }
+  function checkBtnClasses() {
+    if (props.btnLink == null) return "btn disabled";
+    return "btn";
+  }
 
-    return (
-        <div className="col-3 col-lg-4 col-md-6 col-sm-12 col-mx-auto">
-            <div className="card myCard">
-                <a href={props.btnLink} target="_blank">
-                    <img src={checkImg()} className="img-responsive cardImage"></img>
-                </a>
-                <div className="card-header">
-                    <div className="card-title h5">{props.name}</div>
-                </div>
-                <div className="card-body">
-                    <p>{props.desc}</p>
-                    <div className="card-button">
-                        <a 
-                            className={checkBtnClasses()}
-                            href={props.btnLink}
-                            target="_blank"
-                            >
-                            Visit Site
-                        </a>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="col-3 col-lg-4 col-md-6 col-sm-12 col-mx-auto">
+      <div className="card myCard">
+        <a href={props.btnLink} target="_blank">
+          <img src={checkImg()} className="img-responsive cardImage"></img>
+        </a>
+        <div className="card-header">
+          <div className="card-title h5">{props.name}</div>
         </div>
-    );
+        <div className="card-body">
+          <p>{props.desc}</p>
+          <div className="card-button">
+            <a
+              className={checkBtnClasses()}
+              href={props.btnLink}
+              target="_blank"
+            >
+              Visit Site
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
