@@ -9,7 +9,7 @@ const Index = () => (
   <div>
     <Base></Base>
     <Navbar></Navbar>
-    <div className="col-10 col-mx-auto">
+    <div>
       <MainLogo></MainLogo>
       <ScrollDown></ScrollDown>
       <Projects></Projects>
