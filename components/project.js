@@ -1,31 +1,24 @@
-export default function Project(props) {
-  function checkImg() {
-    if (props.imgSrc == null) return "/static/img/placeholder.png";
-    return props.imgSrc;
-  }
+import style from "./styles/project.module.css";
 
-  function checkBtnClasses() {
-    if (props.btnLink == null) return "btn disabled";
-    return "btn";
-  }
+export default function Project(props) {
+  const { btnLink, name, desc, imgSrc } = props;
 
   return (
-    <div className="col-3 col-lg-4 col-md-6 col-sm-12 col-mx-auto">
-      <div className="card myCard">
-        <a href={props.btnLink} target="_blank">
-          <img src={checkImg()} className="img-responsive cardImage"></img>
+    <div>
+      <div className={style.myCard}>
+        <a href={btnLink} target="_blank">
+          <img
+            src={imgSrc ?? "/static/img/placeholder.png"}
+            className={style.cardImage}
+          ></img>
         </a>
-        <div className="card-header">
-          <div className="card-title h5">{props.name}</div>
+        <div>
+          <div>{name}</div>
         </div>
-        <div className="card-body">
-          <p>{props.desc}</p>
-          <div className="card-button">
-            <a
-              className={checkBtnClasses()}
-              href={props.btnLink}
-              target="_blank"
-            >
+        <div>
+          <p>{desc}</p>
+          <div>
+            <a href={btnLink} target="_blank">
               Visit Site
             </a>
           </div>

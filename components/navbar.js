@@ -1,26 +1,27 @@
 import MiniLogo from "./miniLogo";
+import style from "./styles/navbar.module.css";
 
 export default function Navbar() {
   return (
-    <div className="col-12">
-      <header className="navbar myNavbar">
-        <section className="navbar-section">
-          <a className="btn btn-link home" href="/">
+    <div>
+      <header className={style.myNavbar}>
+        <section>
+          <a className={style.home} href="/">
             Home
           </a>
-          <a className="btn btn-link about" href="/about">
+          <a className={style.about} href="/about">
             About
           </a>
-          <a className="btn btn-link jams" href="/jams">
+          <a className={style.jams} href="/jams">
             Game Jams
           </a>
         </section>
-        <section className="navbar-center">
-          <MiniLogo className="miniLogo"></MiniLogo>
+        <section>
+          <MiniLogo className={style.miniLogo}></MiniLogo>
         </section>
-        <section className="navbar-section">
+        <section>
           <a
-            className="btn btn-link resume"
+            className={style.resume}
             href="/static/publicFiles/resume.pdf"
             target="_blank"
           >

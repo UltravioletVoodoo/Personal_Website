@@ -1,14 +1,15 @@
 import Project from "./project";
+import style from "./styles/gameJams.module.css";
 
 export default function GameJams() {
   return (
-    <>
-      <div className="gameJamsTitle">
+    <div>
+      <div className={style.gameJamsTitle}>
         <h1>Game Jams</h1>
         <hr></hr>
       </div>
 
-      <div className="columns">
+      <div>
         <Project
           name="Alette and the Gloom"
           desc="A cute, spooky, storybook game. Created in 48 hours on a 4 person team in October of 2020."
@@ -30,6 +31,6 @@ export default function GameJams() {
           imgSrc="/static/img/RequiemOfTheRift.png"
         ></Project>
       </div>
-    </>
+    </div>
   );
 }

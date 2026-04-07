@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from "./styles/miniLogo.module.css";
 
 export default function MiniLogo() {
   // State for whether the animation class is active or not
@@ -13,7 +14,7 @@ export default function MiniLogo() {
   return (
     <img
       src="/static/img/logo.svg"
-      className={"miniLogo " + (clicked ? "spinAnimation" : "")}
+      className={`${style.miniLogo}${clicked ? style.spinAnimation : ""}`}
       onClick={resetAnimation}
       id="miniLogo"
     ></img>
