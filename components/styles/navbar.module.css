@@ -1,35 +1,12 @@
-.myNavbar {
-    box-shadow: 0px 10px 18px #CCCCCC;
-    padding: 1vh;
-    transition: 0.2s;
-    margin-bottom: 5vh;
-    height: 10vh;
+.navbar {
+  height: 64px;
+  background-color: white;
+  box-shadow: 0 0 5px 0 gray;
+  display: flex;
+  justify-content: center;
 }
-.miniLogo {
-    display: none;
-}
-.myNavbar .navbar-center {
-    height: 100%;
-}
-.myNavbar .btn.btn-link {
-    color: black;
-}
-.about, .home, .jams, .resume, .miniLogo {
-    transition: 0.2s;
-}
-.home {
-    padding-left: 5vw;
-}
-.resume {
-    padding-right: 5vw;
-    padding-left: 0;
-}
-.about:hover, .home:hover, .jams:hover, .resume:hover, .miniLogo:hover {
-    transform: scale(1.1);
-}
-
-@media only screen and (min-width: 700px) {
-    .miniLogo {
-        display: unset;
-    }
+.navbarContents {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

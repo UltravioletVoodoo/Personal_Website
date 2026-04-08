@@ -14,7 +14,7 @@ export default function MiniLogo() {
   return (
     <img
       src="/static/img/logo.svg"
-      className={`${style.miniLogo}${clicked ? style.spinAnimation : ""}`}
+      className={`${style.miniLogo} ${clicked ? style.spinAnimation : ""}`}
       onClick={resetAnimation}
       id="miniLogo"
     ></img>
