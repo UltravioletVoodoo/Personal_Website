@@ -1,4 +1,4 @@
-import style from "./styles/navbarLink.module.css";
+import style from "../styles/navbarLink.module.css";
 
 export function NavbarLink(props) {
   const { text, href, newTab = false } = props;

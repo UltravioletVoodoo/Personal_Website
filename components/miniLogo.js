@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "./styles/miniLogo.module.css";
+import style from "../styles/miniLogo.module.css";
 
 export default function MiniLogo() {
   const [clicked, setClicked] = useState(false);

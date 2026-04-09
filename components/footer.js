@@ -1,6 +1,6 @@
 import { NavbarLink } from "./navbarLink";
 import { SocialMediaIcon } from "./socialMediaIcon";
-import style from "./styles/footer.module.css";
+import style from "../styles/footer.module.css";
 
 export default function Footer() {
   return (

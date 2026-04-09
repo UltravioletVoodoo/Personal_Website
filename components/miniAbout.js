@@ -1,4 +1,4 @@
-import style from "./styles/miniAbout.module.css";
+import style from "../styles/miniAbout.module.css";
 
 const headerText = `
 Software Engineer / Cosplay Enthusiast / Videogame Nerd

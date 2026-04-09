@@ -1,5 +1,5 @@
 import Project from "./project";
-import style from "./styles/gameJams.module.css";
+import style from "../styles/gameJams.module.css";
 
 export default function GameJams() {
   return (

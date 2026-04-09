@@ -1,6 +1,6 @@
 import MiniLogo from "./miniLogo";
 import { NavbarLink } from "./navbarLink";
-import style from "./styles/navbar.module.css";
+import style from "../styles/navbar.module.css";
 
 export default function Navbar() {
   return (

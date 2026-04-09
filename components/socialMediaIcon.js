@@ -1,4 +1,4 @@
-import style from "./styles/socialMediaIcon.module.css";
+import style from "../styles/socialMediaIcon.module.css";
 
 export function SocialMediaIcon(props) {
   const { alt, href, imgPath } = props;

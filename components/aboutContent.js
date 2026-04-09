@@ -1,5 +1,5 @@
 import AboutSection from "./aboutSection";
-import style from "./styles/aboutContent.module.css";
+import style from "../styles/aboutContent.module.css";
 
 const aboutIntroText = `
 My name is Jonathan Bezeau. I am a software engineer with a passion for web development. 

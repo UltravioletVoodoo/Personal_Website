@@ -1,5 +1,5 @@
 import MiniAbout from "../components/miniAbout";
-import style from "./styles/mainLogo.module.css";
+import style from "../styles/mainLogo.module.css";
 
 export default function MainLogo() {
   return (

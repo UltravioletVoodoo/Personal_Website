@@ -1,4 +1,4 @@
-import style from "./styles/project.module.css";
+import style from "../styles/project.module.css";
 
 export default function Project(props) {
   const { btnLink, name, desc, imgSrc } = props;
