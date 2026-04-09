@@ -1,0 +1,9 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+}
+.projects {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

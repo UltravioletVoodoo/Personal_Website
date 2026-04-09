@@ -1,15 +1,37 @@
-.myCard {
-    margin: 5px;
-    transition: 0.2s;
+.project {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 5px 2px gray;
+  border-radius: 2px;
+  transition: 0.2s;
 }
-.myCard:hover {
-    transform: scale(1.05);
-}
-.myCard .card-button{
-    text-align: center;
+.project:hover {
+  transform: scale(1.05);
 }
 .cardImage {
-    height: 150px;
-    width: 100%;
-    object-fit: none;
+  height: 150px;
+  width: 100%;
+  object-fit: fill;
+}
+.content {
+  padding: 1rem;
+}
+.title {
+  margin: 0;
+}
+.projectButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.projectButton {
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.projectButton:hover {
+  background-color: aliceblue;
 }
