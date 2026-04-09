@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className={style.navbarContents}>
         <NavbarLink text="About" href="/about" />
         <MiniLogo />
-        <NavbarLink text="Projects" href="/jams" />
+        <NavbarLink text="Projects" href="/projects" />
       </div>
     </div>
   );
