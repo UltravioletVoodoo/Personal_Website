@@ -6,7 +6,7 @@ export function ProjectContainer(props) {
 
   return (
     <div className={style.projectContainer}>
-      <h2>{title}</h2>
+      <h2 className={style.title}>{title}</h2>
       <div className={style.projects}>
         {projects.map((project) => (
           <Project
