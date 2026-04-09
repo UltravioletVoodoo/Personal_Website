@@ -1,5 +1,15 @@
-export function NavbarLink(props) {
-  const { text, href } = props;
+import style from "./styles/navbarLink.module.css";
 
-  return <a href={href}>{text}</a>;
+export function NavbarLink(props) {
+  const { text, href, newTab = false } = props;
+
+  return (
+    <a
+      className={style.link}
+      href={href}
+      target={newTab ? "_blank" : undefined}
+    >
+      {text}
+    </a>
+  );
 }

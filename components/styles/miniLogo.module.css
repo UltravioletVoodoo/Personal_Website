@@ -1,6 +1,12 @@
 .miniLogo {
-  height: 32px;
+  width: 32px;
   cursor: pointer;
+  transition: 0.5s;
+  padding: 5px;
+}
+.miniLogo:hover {
+  width: 42px;
+  padding: 0;
 }
 .spinAnimation {
   animation-name: spin;
