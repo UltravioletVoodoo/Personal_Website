@@ -21,7 +21,8 @@ export const webProjects = [
   },
   {
     name: "Super Search",
-    description: "A word searching app for poets and songwriters.",
+    description:
+      "A word searching app for poets, songwriters, and anyone with a word on the tip of their tongue.",
     href: "https://super-search.jonbezeau.dev",
     src: "/static/img/superSearch.PNG",
   },
