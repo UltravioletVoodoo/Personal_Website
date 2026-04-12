@@ -8,7 +8,7 @@ export const webProjects = [
   {
     name: "Pixel Art Maker",
     description:
-      "A pixel art maker that can be used entirely within the browser.",
+      "A simple pixel art maker that can be used entirely within the browser.",
     href: "https://pixelart.jonbezeau.dev",
     src: "/static/img/Pixel_Art_Maker.PNG",
   },
@@ -21,8 +21,7 @@ export const webProjects = [
   },
   {
     name: "Super Search",
-    description:
-      "A word searching app for poets, songwriters, and those with a word on the tip of their tongue.",
+    description: "A word searching app for poets and songwriters.",
     href: "https://super-search.jonbezeau.dev",
     src: "/static/img/superSearch.PNG",
   },
