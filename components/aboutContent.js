@@ -27,7 +27,7 @@ const mePhotoPaths = [
   "/static/img/me4.jpg",
   "/static/img/me5.jpeg",
   "/static/img/me6.jpeg",
-  "/static/img/me7.jpg",
+  "/static/img/me7.JPG",
 ];
 
 const hobbyPhotoPaths = [
