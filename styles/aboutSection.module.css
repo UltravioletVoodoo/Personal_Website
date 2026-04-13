@@ -1,23 +1,12 @@
-.aboutImage {
-    width: 100%;
-    height: 100px;
-    object-fit: contain;
-    transition: 0.2s;
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5vw;
+  row-gap: 1rem;
+  justify-content: center;
 }
-.aboutImage:hover {
-    transform: scale(1.5);
-}
-.desktopDesign {
-    display: none;
-}
-.mobileDesign {
-    display: inline-block;
-}
-@media only screen and (min-width: 700px) {
-    .desktopDesign {
-        display: block;
-    }
-    .mobileDesign {
-        display: none;
-    }
+.image {
+  width: max(20vw, 200px);
+  height: max(20vw, 200px);
+  object-fit: cover;
 }

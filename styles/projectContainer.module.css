@@ -10,8 +10,3 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.title {
-  margin: 0;
-  border-bottom: 1px solid gray;
-  width: 100%;
-}

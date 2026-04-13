@@ -33,27 +33,18 @@ const hobbyPhotoPaths = [
 
 export default function AboutContent() {
   return (
-    <div>
-      <div className={style.aboutTitle}>
-        <h1>About</h1>
-        <hr></hr>
-      </div>
+    <div className={style.aboutContent}>
+      <AboutSection
+        title="About Me"
+        text={aboutIntroText}
+        photos={mePhotoPaths}
+      ></AboutSection>
 
-      <div className="aboutBody">
-        <AboutSection
-          title="About Me"
-          text={aboutIntroText}
-          photos={mePhotoPaths}
-        ></AboutSection>
-
-        <hr className={style.divider}></hr>
-
-        <AboutSection
-          title="My Hobbies"
-          text={aboutHobbiesText}
-          photos={hobbyPhotoPaths}
-        ></AboutSection>
-      </div>
+      <AboutSection
+        title="My Hobbies"
+        text={aboutHobbiesText}
+        photos={hobbyPhotoPaths}
+      ></AboutSection>
     </div>
   );
 }

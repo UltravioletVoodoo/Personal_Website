@@ -1,20 +1,20 @@
 .miniAbout {
-    position: static;
+  padding-bottom: 1rem;
 }
 .bodyContent {
-    display: block;
+  display: block;
 }
 .footerContent {
-    display: none;
+  display: none;
 }
 @media only screen and (min-width: 700px) {
-    .miniAbout {
-        position: absolute;
-        top: 15%;
-        left: 15%;
-        width: 35vw;
-    }
-    .footerContent {
-        display: block;
-    }
+  .miniAbout {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 35vw;
+  }
+  .footerContent {
+    display: block;
+  }
 }

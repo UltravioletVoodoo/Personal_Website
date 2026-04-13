@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className={style.navbar}>
       <div className={style.navbarContents}>
-        <NavbarLink text="About" href="/about" />
+        <NavbarLink text="About" href="/about" rightAlign={true} />
         <MiniLogo />
         <NavbarLink text="Projects" href="/projects" />
       </div>
