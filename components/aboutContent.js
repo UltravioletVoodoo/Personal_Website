@@ -22,6 +22,9 @@ const mePhotoPaths = [
   "/static/img/me2.jpg",
   "/static/img/me3.jpg",
   "/static/img/me4.jpg",
+  "/static/img/me5.jpeg",
+  "/static/img/me6.jpeg",
+  "/static/img/me7.jpg",
 ];
 
 const hobbyPhotoPaths = [
@@ -29,6 +32,8 @@ const hobbyPhotoPaths = [
   "/static/img/cosplay2.jpg",
   "/static/img/cosplay3.jpg",
   "/static/img/cosplay4.jpg",
+  "/static/img/cosplay5.jpg",
+  "/static/img/cosplay6.jpeg",
 ];
 
 export default function AboutContent() {
