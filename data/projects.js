@@ -48,7 +48,7 @@ export const gameProjects = [
     description:
       "A Flappy Bird clone about a courageous caterpillar named Sparks.",
     href: "https://sparks.jonbezeau.dev",
-    src: "/static/img/sparksCrossesTheRoad.PNG",
+    src: "/static/img/sparks.png",
   },
   {
     name: "Alette and the Gloom",

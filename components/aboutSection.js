@@ -1,12 +1,11 @@
 import style from "../styles/aboutSection.module.css";
+import { ContentSection } from "./contentSection";
 
 export default function AboutSection(props) {
-  const { title, text, photos } = props;
+  const { title, textSections, photos } = props;
 
   return (
-    <div>
-      <h2>{title}</h2>
-      <p>{text}</p>
+    <ContentSection title={title} textSections={textSections}>
       <div className={style.imagesContainer}>
         {photos.map((photo, index) => (
           <img
@@ -16,6 +15,6 @@ export default function AboutSection(props) {
           />
         ))}
       </div>
-    </div>
+    </ContentSection>
   );
 }

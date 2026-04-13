@@ -1,12 +1,12 @@
 import { Project } from "./project";
 import style from "../styles/projectContainer.module.css";
+import { ContentSection } from "./contentSection";
 
 export function ProjectContainer(props) {
-  const { title, projects } = props;
+  const { title, textSections, projects } = props;
 
   return (
-    <div className={style.projectContainer}>
-      <h2 className={style.title}>{title}</h2>
+    <ContentSection title={title} textSections={textSections}>
       <div className={style.projects}>
         {projects.map((project, index) => (
           <Project
@@ -18,6 +18,6 @@ export function ProjectContainer(props) {
           ></Project>
         ))}
       </div>
-    </div>
+    </ContentSection>
   );
 }

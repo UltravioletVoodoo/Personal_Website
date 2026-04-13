@@ -6,7 +6,12 @@
   justify-content: center;
 }
 .image {
-  width: max(20vw, 200px);
-  height: max(20vw, 200px);
+  width: 100%;
   object-fit: cover;
+}
+@media only screen and (min-width: 700px) {
+  .image {
+    width: max(15vw, 200px);
+    height: max(15vw, 200px);
+  }
 }

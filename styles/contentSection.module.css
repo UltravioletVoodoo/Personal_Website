@@ -1,0 +1,22 @@
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.title {
+  font-size: 32px;
+  color: slategray;
+  border-bottom: 1px solid slategray;
+  padding-top: 2rem;
+}
+.title,
+.text {
+  width: calc(100vw - 2rem);
+}
+@media only screen and (min-width: 700px) {
+  .title,
+  .text {
+    width: 65vw;
+  }
+}

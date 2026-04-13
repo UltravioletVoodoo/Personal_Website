@@ -1,21 +1,24 @@
 import AboutSection from "./aboutSection";
 import style from "../styles/aboutContent.module.css";
 
-const aboutIntroText = `
-My name is Jonathan Bezeau. I am a software engineer with a passion for web development. 
+const aboutIntroTextSections = [
+  `My name is Jonathan Bezeau. I am a software engineer with a passion for web development. 
 Its ability to create tools and entertainment that are easily accessible for 
-anyone on any device anywhere in the world intrigues me. This website was designed 
+anyone on any device anywhere in the world intrigues me.`,
+  `This website was designed 
 to be a portfolio, to show off my passion for coding, displaying to the world 
-who I am, and what I can do.
-`;
+who I am, and what I can do.`,
+];
 
-const aboutHobbiesText = `
-I have always been fascinated by fantasy worlds. As a child, I read books about 
+const aboutHobbiesTextSections = [
+  `I have always been fascinated by fantasy worlds. As a child, I read books about 
 warriors, dragons, wizards, and goblins. This fascination developed into two core hobbies 
-in my adult life. Dungeons and Dragons, and Cosplay. In my off time, I can be found 
+in my adult life. Dungeons and Dragons, and Cosplay.
+`,
+  `In my off time, I can be found 
 writing my latest Dungeons and Dragons campaign, or hard at work at my workbench glueing 
-and sewing the newest addition to my rapidly growing cosplay collection.
-`;
+and sewing the newest addition to my rapidly growing cosplay collection.`,
+];
 
 const mePhotoPaths = [
   "/static/img/me1.jpg",
@@ -41,13 +44,13 @@ export default function AboutContent() {
     <div className={style.aboutContent}>
       <AboutSection
         title="About Me"
-        text={aboutIntroText}
+        textSections={aboutIntroTextSections}
         photos={mePhotoPaths}
       ></AboutSection>
 
       <AboutSection
         title="My Hobbies"
-        text={aboutHobbiesText}
+        textSections={aboutHobbiesTextSections}
         photos={hobbyPhotoPaths}
       ></AboutSection>
     </div>
