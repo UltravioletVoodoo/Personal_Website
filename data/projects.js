@@ -33,6 +33,13 @@ export const webProjects = [
     href: "https://idk.jonbezeau.dev",
     src: "/static/img/iDontKnow.PNG",
   },
+  {
+    name: "Tetrahedron",
+    description:
+      "A rotating tetrahedron created in pure CSS. Why? Because CSS and Math are both cool.",
+    href: "https://tetrahedron.jonbezeau.dev",
+    src: "/static/img/tetrahedron.png",
+  },
 ];
 
 export const gameProjects = [

@@ -8,12 +8,13 @@ export function ProjectContainer(props) {
     <div className={style.projectContainer}>
       <h2 className={style.title}>{title}</h2>
       <div className={style.projects}>
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <Project
             name={project.name}
             desc={project.description}
             btnLink={project.href}
             imgSrc={project.src}
+            key={`${title}-photo-${index}`}
           ></Project>
         ))}
       </div>

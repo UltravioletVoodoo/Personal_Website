@@ -8,8 +8,12 @@ export default function AboutSection(props) {
       <h2>{title}</h2>
       <p>{text}</p>
       <div className={style.imagesContainer}>
-        {photos.map((photo) => (
-          <img className={style.image} src={photo} />
+        {photos.map((photo, index) => (
+          <img
+            key={`${title}-photo-${index}`}
+            className={style.image}
+            src={photo}
+          />
         ))}
       </div>
     </div>
