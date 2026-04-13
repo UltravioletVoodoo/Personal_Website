@@ -1,6 +1,9 @@
+/*Remove next.js default 8px margin on the entire app*/
 body {
   margin: 0;
 }
+
+/* Set default font for app*/
 p,
 h1,
 h2,
@@ -12,10 +15,18 @@ div,
 a {
   font-family: sans-serif;
 }
+
+/* Prevent default margin for headers */
 h1,
 h2,
 h3,
 h4,
 h5 {
   margin: 0;
+}
+
+/* Prevent quick flash of color when tapping on mobile */
+a,
+img {
+  -webkit-tap-highlight-color: transparent;
 }
